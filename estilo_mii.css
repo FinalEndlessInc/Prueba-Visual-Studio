@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    
+}
+main{
+    width: 1280px;
+    height: auto;
+    background-color: #81c0e6;
+    margin: 0 auto;
+}
+
+header{
+    width: 1280px;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+    text-align: center;
+}
+
+nav{
+    width: 1280px;
+    height: 60px;
+    background-color: #d4f7ff;
+    float: left;
+    text-align: center;
+}
+
+#logo{
+    line-height: 200px;
+    margin-top: 20px;
+}
+
+/* -- barra de navegacion --*/
+
+nav a{
+    font-family: 'Nunito', sans-serif;
+    color: #0a5e8f;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 60px;
+    padding: 15px 25px;
+    margin-left: 100px;
+
+}
+
+a:hover{
+    background-color: cyan;
+	border-radius: 10px;
+	
+	
+	
+}
+/* -- fin de barra de navegacion --*/
+
+section{
+    width: 1280px;
+    height: auto;
+    background-color: #81c0e6;
+    float: left;
+}
+
+
+
+.personaje{
+    width: 1200px;
+    height: auto;
+    background-color: cornflowerblue;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.texto{
+    width: 450px;
+    height: 300px;
+    background-image: linear-gradient(to bottom,#f2f9fa 40%,#ced7e0 90%);
+    float: left;
+    margin-left: 100px;
+    padding: 20px;
+    margin-top: 16px;
+	border-radius: 20px;
+	outline: 6px solid #0a64c4;
+}
+
+.foto{
+    width: 450px;
+    height: 330px;
+    background-color: #1698f0;
+    float: left;
+    text-align: center;
+    margin-left: 100px;	
+   
+}
+
+footer{
+    width: 1280px;
+    height: 200px;
+    background-color: #315b73;
+    float: left;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 20px 50px;
+
+}
+
+h3{
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+figcaption{
+    background-color: rgba(5, 5, 88, 0.284);
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
